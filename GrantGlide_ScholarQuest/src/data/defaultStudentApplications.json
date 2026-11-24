@@ -1,0 +1,64 @@
+[
+  {
+    "id": "APP-101",
+    "scholarshipId": "SCH-001",
+    "scholarshipTitle": "Pragati Scholarship Scheme for Girl Students (Technical Degree)",
+    "provider": "AICTE",
+    "awardAmount": 50000,
+    "appliedDate": "2026-10-15",
+    "stage": "Under Review",
+    "applicationRef": "PRAGATI-2026-8842",
+    "notes": "Submitted with latest college bonafide. Verification pending at institute level.",
+    "documentsUploaded": [
+      "DOC-INC",
+      "DOC-ADM",
+      "DOC-BON",
+      "DOC-MRK"
+    ]
+  },
+  {
+    "id": "APP-102",
+    "scholarshipId": "SCH-003",
+    "scholarshipTitle": "Reliance Foundation Undergraduate Scholarship",
+    "provider": "Reliance Foundation",
+    "awardAmount": 200000,
+    "appliedDate": "2026-11-01",
+    "stage": "Applied",
+    "applicationRef": "RF-UG-99120",
+    "notes": "Aptitude test completed online. Waiting for shortlist results.",
+    "documentsUploaded": [
+      "DOC-INC",
+      "DOC-MRK",
+      "DOC-BON",
+      "DOC-APT"
+    ]
+  },
+  {
+    "id": "APP-103",
+    "scholarshipId": "SCH-006",
+    "scholarshipTitle": "Santoor Women's Scholarship",
+    "provider": "Wipro Consumer Care & Wipro Cares",
+    "awardAmount": 24000,
+    "appliedDate": "2026-08-20",
+    "stage": "Awarded",
+    "applicationRef": "SANTOOR-W-4410",
+    "notes": "First installment of ₹24,000 received in bank account via DBT.",
+    "documentsUploaded": [
+      "DOC-INC",
+      "DOC-DOM",
+      "DOC-MRK"
+    ]
+  },
+  {
+    "id": "APP-104",
+    "scholarshipId": "SCH-004",
+    "scholarshipTitle": "Kotak Kanya Scholarship for Meritorious Girls",
+    "provider": "Kotak Education Foundation",
+    "awardAmount": 150000,
+    "appliedDate": "2026-11-20",
+    "stage": "Bookmarked",
+    "applicationRef": "",
+    "notes": "Deadline in 9 days. Need to arrange father's ITR document.",
+    "documentsUploaded": []
+  }
+]

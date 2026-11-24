@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrantGlide: ScholarQuest – Intelligent Scholarship Matching & Document Readiness</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <!-- Google Fonts Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top App Header -->
+  <header class="app-header">
+    <div class="nav-container">
+      <div class="brand-section">
+        <span class="brand-icon">🎓</span>
+        <div>
+          <span class="brand-title">GrantGlide: ScholarQuest</span>
+          <span class="brand-tagline">Intelligent Scholarship Matching & Document Readiness Platform</span>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Multilingual Language Selector -->
+        <label for="select-language" style="font-size: 0.8rem; font-weight:600; color:#64748b;">🌐 Language:</label>
+        <select id="select-language" class="lang-selector">
+          <option value="en">English (EN)</option>
+          <option value="hi">हिन्दी (Hindi)</option>
+          <option value="te">తెలుగు (Telugu)</option>
+          <option value="ta">தமிழ் (Tamil)</option>
+          <option value="mr">मराठी (Marathi)</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs Bar -->
+  <nav class="app-nav-tabs">
+    <div class="tabs-container">
+      <button class="nav-tab active" data-tab="match">🎯 Match Scholarships</button>
+      <button class="nav-tab" data-tab="track">📋 My Applications Pipeline</button>
+      <button class="nav-tab" data-tab="calculator">🧮 Financial Aid Optimizer</button>
+      <button class="nav-tab" data-tab="whatsapp">📱 WhatsApp Alerts Simulator</button>
+    </div>
+  </nav>
+
+  <!-- Main View Area -->
+  <main class="app-main">
+
+    <!-- ==================== TAB 1: SCHOLARSHIP MATCHER ==================== -->
+    <div id="tab-view-match" class="tab-view active-view">
+      <!-- 1. Student Intake Form Container -->
+      <section id="intake-container"></section>
+
+      <!-- 2. Conflict Alert Banner (Dynamic) -->
+      <div id="conflict-alert-banner" style="display: none;"></div>
+
+      <!-- 3. Category Filter Pills & Search Bar -->
+      <div class="card feed-controls-card">
+        <div class="filter-pills-wrap">
+          <span style="font-size:0.85rem; font-weight:700; color:#334155; margin-right:4px;">Filter Category:</span>
+          <button class="filter-pill active" data-category="All">All Categories</button>
+          <button class="filter-pill" data-category="Government">🏛️ Government</button>
+          <button class="filter-pill" data-category="Women in STEM">👩‍🔬 Women in STEM</button>
+          <button class="filter-pill" data-category="Merit-Based">⭐ Merit-Based</button>
+          <button class="filter-pill" data-category="Need-Based">🤝 Need-Based</button>
+          <button class="filter-pill" data-category="Special Category">🎖️ Special Category</button>
+        </div>
+
+        <div class="search-input-wrap">
+          <input type="text" id="search-scholarships" class="form-control" placeholder="🔍 Search scheme name, ministry, or keyword...">
+        </div>
+      </div>
+
+      <!-- Feed Header -->
+      <div style="display: flex; justify-content: space-between; align-items: center; margin: 20px 0 14px 0;">
+        <h3 id="feed-count-header" style="font-size: 1.25rem; font-weight: 800; color: #1e293b;">
+          Qualifying Scholarship Feed
+        </h3>
+        <span style="font-size: 0.85rem; color: #64748b;">Ranked by Match Score & Urgent Deadline</span>
+      </div>
+
+      <!-- 4. Matching Scholarship Feed Grid -->
+      <div id="feed-container" class="scholarship-feed-grid">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: MY APPLICATIONS ==================== -->
+    <div id="tab-view-track" class="tab-view" style="display: none;">
+      <section id="pipeline-container"></section>
+    </div>
+
+    <!-- ==================== TAB 3: FINANCIAL AID CALCULATOR ==================== -->
+    <div id="tab-view-calculator" class="tab-view" style="display: none;">
+      <section id="calculator-container"></section>
+    </div>
+
+    <!-- ==================== TAB 4: WHATSAPP ALERT SIMULATOR ==================== -->
+    <div id="tab-view-whatsapp" class="tab-view" style="display: none;">
+      <section id="whatsapp-container"></section>
+    </div>
+
+  </main>
+
+  <!-- Global Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/sanitizer.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/components/countdownTimer.js"></script>
+  <script src="js/components/intakeForm.js"></script>
+  <script src="js/components/scholarshipCard.js"></script>
+  <script src="js/components/documentChecklist.js"></script>
+  <script src="js/components/schemeInspector.js"></script>
+  <script src="js/components/pipelineTracker.js"></script>
+  <script src="js/components/financialAidCalculator.js"></script>
+  <script src="js/components/whatsAppSimulator.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

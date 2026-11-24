@@ -1,0 +1,978 @@
+[
+  {
+    "id": "SCH-001",
+    "title": "Pragati Scholarship Scheme for Girl Students (Technical Degree)",
+    "provider": "AICTE (All India Council for Technical Education)",
+    "category": "Women in STEM",
+    "awardAmount": 50000,
+    "awardFrequency": "per year (up to 4 years)",
+    "daysRemaining": 12,
+    "renewalConditions": "Must pass each academic year with at least 6.0 CGPA without backlogs.",
+    "officialUrl": "https://www.aicte-pragati-saksham-gov.in/",
+    "rules": {
+      "minGpa": 6.0,
+      "maxIncome": 800000,
+      "allowedGenders": ["Female"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Technology", "Architecture", "Pharmacy"],
+      "maxFamilyChildrenBenefitted": 2
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-CAS", "name": "Caste / Category Certificate", "canonicalType": "caste_proof", "isMandatory": false, "maxValidityMonths": 36 },
+      { "id": "DOC-ADM", "name": "Centralized Allotment Letter / Admission Proof", "canonicalType": "admission_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-BON", "name": "College Bonafide Certificate", "canonicalType": "bonafide_proof", "isMandatory": true, "maxValidityMonths": 6 },
+      { "id": "DOC-MRK", "name": "Standard 10th & 12th Marksheets", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 }
+    ],
+    "conflictsWith": ["SCH-007", "SCH-028"],
+    "summaryMultiLingual": {
+      "en": "Empowers female students pursuing premier engineering degrees with ₹50,000 per year towards tuition and contingencies.",
+      "hi": "इंजीनियरिंग की छात्राओं को ₹50,000 प्रति वर्ष की वित्तीय सहायता प्रदान करने वाली प्रमुख सरकारी योजना।",
+      "te": "ఇంజనీరింగ్ చదువుతున్న బాలికలకు ఏటా ₹50,000 ఆర్థిక సహాయం అందించే ప్రముఖ AICTE ప్రభుత్వ స్కాలర్‌షిప్.",
+      "ta": "பொறியியல் படிக்கும் மாணவிகளுக்கு ஆண்டுக்கு ₹50,000 நிதியுதவி வழங்கும் AICTE திட்டம்.",
+      "mr": "इंजिनिअरिंग करणाऱ्या विद्यार्थिनींसाठी वार्षिक ₹50,000 सहाय्य देणारी योजना."
+    }
+  },
+  {
+    "id": "SCH-002",
+    "title": "Telangana ePASS Post-Matric Scholarship for Backward Classes (BC)",
+    "provider": "Department of Backward Classes Welfare, Govt. of Telangana",
+    "category": "Government",
+    "awardAmount": 35000,
+    "awardFrequency": "per year (RTF + MTF)",
+    "daysRemaining": 18,
+    "renewalConditions": "Minimum 75% attendance in semester and successful academic progression.",
+    "officialUrl": "https://telanganaepass.cgg.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 150000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["BC", "OBC"],
+      "allowedStates": ["Telangana"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "MeeSeva Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-CAS", "name": "MeeSeva Integrated Caste Certificate", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 36 },
+      { "id": "DOC-DOM", "name": "Telangana Domicile / Residence Proof", "canonicalType": "domicile_proof", "isMandatory": true, "maxValidityMonths": 24 },
+      { "id": "DOC-BON", "name": "College Bonafide & Attendance Certificate", "canonicalType": "bonafide_proof", "isMandatory": true, "maxValidityMonths": 6 },
+      { "id": "DOC-BNK", "name": "Student Aadhaar Linked Bank Passbook", "canonicalType": "bank_proof", "isMandatory": true, "maxValidityMonths": 24 }
+    ],
+    "conflictsWith": ["SCH-001", "SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Comprehensive fee reimbursement and maintenance allowance for BC students domiciled in Telangana.",
+      "hi": "तेलंगाना के पिछड़े वर्ग (BC) के छात्रों के लिए पूर्ण शुल्क प्रतिपूर्ति योजना।",
+      "te": "తెలంగాణలోని బీసీ (BC) విద్యార్థుల కోసం పూర్తి ఫీజు రీయింబర్స్‌మెంట్ మరియు మెయింటెనెన్స్ పథకం.",
+      "ta": "தெலுங்கானாவில் உள்ள பிற்படுத்தப்பட்ட வகுப்பு மாணவர்களுக்கான முழு கல்விக் கட்டண உதவி.",
+      "mr": "तेलंगणातील मागासवर्गीय विद्यार्थ्यांसाठी शुल्क प्रतिपूर्ती योजना."
+    }
+  },
+  {
+    "id": "SCH-003",
+    "title": "Reliance Foundation Undergraduate Scholarship",
+    "provider": "Reliance Foundation",
+    "category": "Merit-Based",
+    "awardAmount": 200000,
+    "awardFrequency": "total over degree duration (₹50,000/yr)",
+    "daysRemaining": 24,
+    "renewalConditions": "Maintain CGPA >= 7.5 and submission of annual grade cards.",
+    "officialUrl": "https://www.reliancefoundation.org/",
+    "rules": {
+      "minGpa": 7.5,
+      "maxIncome": 1500000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Technology", "Arts/Science", "Commerce", "Law"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate / ITR of Parents", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "12th Board Official Marksheet (Min 60%)", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-BON", "name": "Current College ID and Bonafide Letter", "canonicalType": "bonafide_proof", "isMandatory": true, "maxValidityMonths": 6 },
+      { "id": "DOC-APT", "name": "Aptitude Test Score Confirmation", "canonicalType": "exam_proof", "isMandatory": true, "maxValidityMonths": 6 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Prestigious private merit-cum-means scholarship granting ₹2,00,000 for undergraduate studies.",
+      "hi": "रिलायंस फाउंडेशन द्वारा मेधावी स्नातक छात्रों को ₹2,00,000 की छात्रवृत्ति।",
+      "te": "రిలయన్స్ ఫౌండేషన్ ద్వారా అర్హులైన డిగ్రీ విద్యార్థులకు ₹2,00,000 మెరిట్ గ్రాంట్.",
+      "ta": "ரிலையன்ஸ் அறக்கட்டளையின் ₹2,00,000 இளங்கலை உதவித்தொகை.",
+      "mr": "रिलायन्स फाउंडेशनची गुणवत्ताधारक विद्यार्थ्यांसाठी ₹2 लाखांची शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-004",
+    "title": "Kotak Kanya Scholarship for Meritorious Girls",
+    "provider": "Kotak Education Foundation",
+    "category": "Women in STEM",
+    "awardAmount": 150000,
+    "awardFrequency": "per year (up to graduation)",
+    "daysRemaining": 9,
+    "renewalConditions": "Maintain minimum 70% in each semester and pass all subjects.",
+    "officialUrl": "https://kotak.kotakeducation.org/",
+    "rules": {
+      "minGpa": 8.0,
+      "maxIncome": 600000,
+      "allowedGenders": ["Female"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Architecture", "Design", "Law"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate / Salary Slip / ITR", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "12th Standard Board Marksheet (Min 85%)", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-ADM", "name": "College Admission Fee Receipt & Entrance Rank Card", "canonicalType": "admission_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-AAD", "name": "Aadhaar Card of Student & Parent", "canonicalType": "identity_proof", "isMandatory": true, "maxValidityMonths": 60 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Financial support of ₹1.5 Lakhs annually for meritorious female students in professional higher education.",
+      "hi": "प्रतिभाशाली छात्राओं के लिए प्रति वर्ष ₹1.5 लाख की कोटक कन्या छात्रवृत्ति।",
+      "te": "వృత్తి విద్యా కోర్సులు చదివే ప్రతిభావంతులైన బాలికలకు ఏటా ₹1.5 లక్షల సహాయం.",
+      "ta": "தொழில்முறை கல்வி பயிலும் மாணவிகளுக்கு ஆண்டுக்கு ₹1.5 லட்சம் உதவித்தொகை.",
+      "mr": "हुशार विद्यार्थिनींसाठी दरवर्षी ₹1.5 लाखांची कोटक कन्या शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-005",
+    "title": "HDFC Bank Parivartan's ECSS Programme",
+    "provider": "HDFC Bank CSR",
+    "category": "Need-Based",
+    "awardAmount": 75000,
+    "awardFrequency": "one-time per academic cycle",
+    "daysRemaining": 30,
+    "renewalConditions": "Re-apply with updated fee receipt and previous year marksheet.",
+    "officialUrl": "https://www.hdfcbank.com/",
+    "rules": {
+      "minGpa": 5.5,
+      "maxIncome": 250000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Revenue Authority Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "Last Qualifying Examination Marksheet", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 36 },
+      { "id": "DOC-IDN", "name": "Government Photo Identity Card", "canonicalType": "identity_proof", "isMandatory": true, "maxValidityMonths": 60 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Need-based educational crisis scholarship for students whose families face severe financial hardship.",
+      "hi": "आर्थिक तंगी से जूझ रहे जरूरतमंद छात्रों के लिए ₹75,000 की संकट सहायता।",
+      "te": "తీవ్రమైన ఆర్థిక ఇబ్బందుల్లో ఉన్న విద్యార్థుల కోసం ₹75,000 వరకు విద్యా సహాయం.",
+      "ta": "கடுமையான நிதி நெருக்கடியில் உள்ள மாணவர்களுக்கு ₹75,000 உதவி.",
+      "mr": "गरजू विद्यार्थ्यांसाठी ₹75,000 ची शैक्षणिक मदत."
+    }
+  },
+  {
+    "id": "SCH-006",
+    "title": "Santoor Women's Scholarship",
+    "provider": "Wipro Consumer Care & Wipro Cares",
+    "category": "Women in STEM",
+    "awardAmount": 24000,
+    "awardFrequency": "per year (up to 3-4 years)",
+    "daysRemaining": 15,
+    "renewalConditions": "Regular attendance and passing all end-semester examinations.",
+    "officialUrl": "https://www.santoorscholarship.com/",
+    "rules": {
+      "minGpa": 6.0,
+      "maxIncome": 400000,
+      "allowedGenders": ["Female"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["Telangana", "Andhra Pradesh", "Karnataka", "Chhattisgarh"],
+      "allowedDegrees": ["Engineering", "Arts/Science", "Commerce", "Humanities"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Family Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-DOM", "name": "State Domicile Certificate", "canonicalType": "domicile_proof", "isMandatory": true, "maxValidityMonths": 24 },
+      { "id": "DOC-MRK", "name": "Class 10 and 12 Pass Certificate from Govt School/Junior College", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Exclusive annual grant of ₹24,000 for young women from AP, Telangana, Karnataka pursuing graduation.",
+      "hi": "एपी, तेलंगाना, कर्नाटक की छात्राओं के लिए ₹24,000 की वार्षिक छात्रवृत्ति।",
+      "te": "తెలంగాణ మరియు ఏపీకి చెందిన యువతుల కోసం ఏటా ₹24,000 అందించే సంతూర్ స్కాలర్‌షిప్.",
+      "ta": "தென்னிந்திய மாணவிகளுக்கான சாந்தூர் கல்வி உதவித்தொகை ₹24,000.",
+      "mr": "युवतींसाठी ₹24,000 ची संतूर शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-007",
+    "title": "Central Sector Scheme of Scholarships for College Students (CSSS)",
+    "provider": "Department of Higher Education, Ministry of Education, Govt. of India",
+    "category": "Government",
+    "awardAmount": 20000,
+    "awardFrequency": "per year",
+    "daysRemaining": 21,
+    "renewalConditions": "Minimum 50% marks in previous year and 75% attendance.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 8.0,
+      "maxIncome": 450000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Tahsildar / Competent Authority Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "Class 12th Board Percentile Rank Certificate (>80th percentile)", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-BNK", "name": "Aadhaar Seeded Bank Account Details", "canonicalType": "bank_proof", "isMandatory": true, "maxValidityMonths": 24 }
+    ],
+    "conflictsWith": ["SCH-001", "SCH-002", "SCH-028"],
+    "summaryMultiLingual": {
+      "en": "Central Government merit scholarship supporting college education with ₹12,000 to ₹20,000 per year.",
+      "hi": "उच्च शिक्षा विभाग द्वारा 80वें पर्सेंटाइल से ऊपर के मेधावी छात्रों के लिए केंद्रीय योजना।",
+      "te": "కేంద్ర ప్రభుత్వ మెరిట్ స్కాలర్‌షిప్ ద్వారా ఉన్నత విద్యా కోర్సులకు ఏటా ₹20,000 వరకు గ్రాంట్.",
+      "ta": "மத்திய அரசின் கல்லூரி மாணவர்களுக்கான உயர்கல்வி உதவித்தொகை.",
+      "mr": "केंद्र शासनाची महाविद्यालयीन विद्यार्थ्यांसाठी शिष्यवृत्ती योजना."
+    }
+  },
+  {
+    "id": "SCH-008",
+    "title": "Tata Trusts Medical and Healthcare Scholarship",
+    "provider": "Tata Trusts",
+    "category": "Merit-Based",
+    "awardAmount": 60000,
+    "awardFrequency": "per year",
+    "daysRemaining": 27,
+    "renewalConditions": "Passing all medical semester exams in the first attempt.",
+    "officialUrl": "https://www.tatatrusts.org/",
+    "rules": {
+      "minGpa": 6.5,
+      "maxIncome": 500000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Medical", "Pharmacy", "Nursing"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-ADM", "name": "NEET Rank Letter & Admission Proof", "canonicalType": "admission_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Supports undergraduate MBBS and healthcare students with up to ₹60,000 towards institutional fees.",
+      "hi": "टाटा ट्रस्ट द्वारा मेडिकल छात्रों के लिए ₹60,000 की वित्तीय सहायता।",
+      "te": "వైద్య విద్యార్థులకు టాటా ట్రస్ట్స్ అందించే ₹60,000 ఆర్థిక సాయం.",
+      "ta": "மருத்துவ மாணவர்களுக்கான டாடா அறக்கட்டளை உதவித்தொகை.",
+      "mr": "टाटा ट्रस्टची वैद्यकीय विद्यार्थ्यांसाठी शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-009",
+    "title": "ONGC Foundation Scholarship for SC/ST Engineering & MBBS Students",
+    "provider": "Oil and Natural Gas Corporation (ONGC) Foundation",
+    "category": "Government",
+    "awardAmount": 48000,
+    "awardFrequency": "per year",
+    "daysRemaining": 14,
+    "renewalConditions": "Minimum 60% or 6.0 CGPA at the end of each academic year.",
+    "officialUrl": "https://ongcscholar.org/",
+    "rules": {
+      "minGpa": 6.0,
+      "maxIncome": 200000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["SC", "ST"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate from Revenue Authority", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-CAS", "name": "SC/ST Caste Certificate", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 36 },
+      { "id": "DOC-BON", "name": "College Head of Institution Bonafide", "canonicalType": "bonafide_proof", "isMandatory": true, "maxValidityMonths": 6 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "CSR grant of ₹48,000 annually for SC/ST students enrolled in 1st year Engineering or MBBS.",
+      "hi": "ओएनजीसी द्वारा एससी/एसटी इंजीनियरिंग और मेडिकल छात्रों के लिए ₹48,000 प्रति वर्ष।",
+      "te": "ఓఎన్‌జీసీ ఫౌండేషన్ ద్వారా ఎస్సీ/ఎస్టీ ఇంజనీరింగ్ విద్యార్థులకు ఏటా ₹48,000 సాయం.",
+      "ta": "ஓஎன்ஜிசி வழங்கும் எஸ்சி/எஸ்டி பொறியியல் மாணவர் உதவித்தொகை.",
+      "mr": "ओएनजीसी फाउंडेशनची एससी/एसटी विद्यार्थ्यांसाठी शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-010",
+    "title": "ONGC Foundation Scholarship for OBC Category Students",
+    "provider": "ONGC Foundation",
+    "category": "Government",
+    "awardAmount": 48000,
+    "awardFrequency": "per year",
+    "daysRemaining": 14,
+    "renewalConditions": "Minimum 6.0 CGPA each year.",
+    "officialUrl": "https://ongcscholar.org/",
+    "rules": {
+      "minGpa": 6.0,
+      "maxIncome": 200000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["OBC", "BC"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-CAS", "name": "Non-Creamy Layer OBC Certificate", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Annual ₹48,000 grant dedicated to backward class students in professional courses.",
+      "hi": "ओबीसी वर्ग के छात्रों के लिए ओएनजीसी की ₹48,000 वार्षिक छात्रवृत्ति।",
+      "te": "బీసీ/ఓబీసీ విద్యార్థుల కోసం ఓఎన్‌జీసీ వార్షిక ₹48,000 స్కాలర్‌షిప్.",
+      "ta": "ஓபிசி பிரிவு மாணவர்களுக்கான ஓஎன்ஜிசி உதவித்தொகை.",
+      "mr": "ओबीसी विद्यार्थ्यांसाठी ओएनजीसी शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-011",
+    "title": "Prime Minister's Scholarship Scheme (PMSS) for CAPF & AR",
+    "provider": "Welfare and Rehabilitation Board (WARB), Ministry of Home Affairs",
+    "category": "Special Category",
+    "awardAmount": 36000,
+    "awardFrequency": "per year for girls (₹30,000 for boys)",
+    "daysRemaining": 20,
+    "renewalConditions": "Passing each semester with minimum 50% marks.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 6.0,
+      "maxIncome": 1000000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Pharmacy", "Law"],
+      "specialConditions": "wardOfPoliceOrMartyr"
+    },
+    "documents": [
+      { "id": "DOC-DIS", "name": "Service / Discharge Certificate of CAPF Personnel", "canonicalType": "special_proof", "isMandatory": true, "maxValidityMonths": 120 },
+      { "id": "DOC-MRK", "name": "12th Marksheet (Min 60%)", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 }
+    ],
+    "conflictsWith": ["SCH-007"],
+    "summaryMultiLingual": {
+      "en": "MHA scholarship dedicated to wards and widows of Central Armed Police Forces personnel.",
+      "hi": "केंद्रीय सशस्त्र पुलिस बलों के आश्रितों के लिए गृह मंत्रालय की योजना।",
+      "te": "కేంద్ర సాయుధ బలగాల (CAPF) సిబ్బంది పిల్లలకు హోం మంత్రిత్వ శాఖ స్కాలర్‌షిప్.",
+      "ta": "மத்திய ஆயுதக் காவல் படை பணியாளர்களின் பிள்ளைகளுக்கான உதவித்தொகை.",
+      "mr": "केंद्रीय सशस्त्र पोलीस दल पाल्यांसाठी शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-012",
+    "title": "L'Oréal India For Young Women In Science Scholarship",
+    "provider": "L'Oréal India CSR",
+    "category": "Women in STEM",
+    "awardAmount": 250000,
+    "awardFrequency": "total over degree (₹62,500/yr)",
+    "daysRemaining": 10,
+    "renewalConditions": "Submission of passing grade cards in Pure/Applied Science or Engineering.",
+    "officialUrl": "https://www.loreal.com/en/india/",
+    "rules": {
+      "minGpa": 8.5,
+      "maxIncome": 600000,
+      "allowedGenders": ["Female"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Family Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "12th Science Board Marksheet (Min 85% in PCB/PCM)", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Prestigious award of ₹2.5 Lakhs empowering meritorious young women in science and technology.",
+      "hi": "विज्ञान और प्रौद्योगिकी में मेधावी युवतियों के लिए ₹2.5 लाख की प्रतिष्ठित लोरियल फेलोशिप।",
+      "te": "సైన్స్, ఇంజనీరింగ్ రంగాల్లోని ప్రతిభావంతులైన బాలికలకు ₹2.5 లక్షల సహాయం.",
+      "ta": "அறிவியல் பயிலும் மாணவிகளுக்கான லோரியல் ₹2.5 லட்சம் உதவித்தொகை.",
+      "mr": "विज्ञान शाखेतील विद्यार्थिनींसाठी ₹2.5 लाखांची लोरियल शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-013",
+    "title": "Siemens Scholarship Program for Engineering",
+    "provider": "Siemens India",
+    "category": "Merit-Based",
+    "awardAmount": 100000,
+    "awardFrequency": "full tuition + book allowance per year",
+    "daysRemaining": 22,
+    "renewalConditions": "First-class aggregate and participation in technical mentorship.",
+    "officialUrl": "https://www.siemens.com/in/",
+    "rules": {
+      "minGpa": 7.0,
+      "maxIncome": 200000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-ADM", "name": "Govt Engineering College Admission Proof", "canonicalType": "admission_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Complete tuition sponsorship and holistic mentorship for economically challenged engineering students.",
+      "hi": "सरकारी इंजीनियरिंग कॉलेज के छात्रों के लिए सीमेंस छात्रवृत्ति कार्यक्रम।",
+      "te": "ఇంజనీరింగ్ విద్యార్థులకు పూర్తి ఫీజు స్పాన్సర్‌షిప్ మరియు శిక్షణ అందించే సిమెన్స్ ప్రోగ్రామ్.",
+      "ta": "பொறியியல் மாணவர்களுக்கான சீமென்ஸ் முழு கல்விக் கட்டண உதவி.",
+      "mr": "इंजिनिअरिंग विद्यार्थ्यांसाठी सिमेन्स शिष्यवृत्ती कार्यक्रम."
+    }
+  },
+  {
+    "id": "SCH-014",
+    "title": "Post-Matric Scholarship for Students with Disabilities (Saksham)",
+    "provider": "AICTE & Department of Empowerment of Persons with Disabilities",
+    "category": "Special Category",
+    "awardAmount": 50000,
+    "awardFrequency": "per year",
+    "daysRemaining": 19,
+    "renewalConditions": "Successful academic progression with no year gap.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 800000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Technology", "Diploma"],
+      "specialConditions": "isSpeciallyAbled"
+    },
+    "documents": [
+      { "id": "DOC-DIS", "name": "Disability Certificate (Min 40% benchmark disability)", "canonicalType": "special_proof", "isMandatory": true, "maxValidityMonths": 120 },
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": ["SCH-001"],
+    "summaryMultiLingual": {
+      "en": "Financial assistance of ₹50,000 per year for specially abled students pursuing technical education.",
+      "hi": "दिव्यांग छात्रों को तकनीकी शिक्षा के लिए ₹50,000 की वार्षिक सहायता।",
+      "te": "సాంకేతిక విద్యనభ్యసిస్తున్న దివ్యాంగ విద్యార్థుల కోసం AICTE సక్షం స్కాలర్‌షిప్.",
+      "ta": "மாற்றுத்திறனாளி மாணவர்களுக்கான ₹50,000 தொழில்நுட்ப கல்வி உதவி.",
+      "mr": "दिव्यांग विद्यार्थ्यांसाठी वार्षिक ₹50,000 ची साक्षम योजना."
+    }
+  },
+  {
+    "id": "SCH-015",
+    "title": "Post Matric Scholarships Scheme for Minorities",
+    "provider": "Ministry of Minority Affairs, Govt. of India",
+    "category": "Government",
+    "awardAmount": 20000,
+    "awardFrequency": "per year",
+    "daysRemaining": 16,
+    "renewalConditions": "Minimum 50% marks in previous final examination.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 250000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["Minority"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-MIN", "name": "Self-Declaration of Minority Community (Muslim/Christian/Sikh/Buddhist/Jain/Parsi)", "canonicalType": "minority_proof", "isMandatory": true, "maxValidityMonths": 24 },
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": ["SCH-002", "SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Central scheme for minority community students pursuing college and university courses.",
+      "hi": "अल्पसंख्यक समुदाय के छात्रों के लिए उच्च शिक्षा छात्रवृत्ति योजना।",
+      "te": "మైనారిటీ కమ్యూనిటీ విద్యార్థుల కోసం కేంద్ర ప్రభుత్వ పోస్ట్-మెట్రిక్ స్కాలర్‌షిప్.",
+      "ta": "சிறுபான்மையின மாணவர்களுக்கான மத்திய அரசு உதவித்தொகை.",
+      "mr": "अल्पसंख्याक विद्यार्थ्यांसाठी पोस्ट-मॅट्रिक शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-016",
+    "title": "Andhra Pradesh Jagananna Vidya Deevena (RTF)",
+    "provider": "Social Welfare Department, Govt. of Andhra Pradesh",
+    "category": "Government",
+    "awardAmount": 45000,
+    "awardFrequency": "quarterly direct credit (Full Fee Reimbursement)",
+    "daysRemaining": 28,
+    "renewalConditions": "Minimum 75% biometric attendance required.",
+    "officialUrl": "https://jnanabhumi.ap.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 250000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["BC", "OBC", "SC", "ST", "EWS", "Minority"],
+      "allowedStates": ["Andhra Pradesh"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "MeeSeva Rice Card / Integrated Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-CAS", "name": "Integrated Caste Certificate", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 36 },
+      { "id": "DOC-DOM", "name": "AP Residence Proof", "canonicalType": "domicile_proof", "isMandatory": true, "maxValidityMonths": 24 }
+    ],
+    "conflictsWith": ["SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Complete tuition fee reimbursement for eligible students domiciled in Andhra Pradesh.",
+      "hi": "आंध्र प्रदेश के छात्रों के लिए पूर्ण शिक्षण शुल्क प्रतिपूर्ति योजना।",
+      "te": "ఆంధ్రప్రదేశ్ విద్యార్థులకు పూర్తి ఫీజు రీయింబర్స్‌మెంట్ అందించే జగనన్న విద్యా దీవెన.",
+      "ta": "ஆந்திர பிரதேச மாணவர்களுக்கான முழு கல்விக் கட்டண திட்டம்.",
+      "mr": "आंध्र प्रदेशातील विद्यार्थ्यांसाठी संपूर्ण शिक्षण शुल्क प्रतिपूर्ती."
+    }
+  },
+  {
+    "id": "SCH-017",
+    "title": "Foundation for Excellence (FFE) Engineering Scholarship",
+    "provider": "Foundation for Excellence India Trust",
+    "category": "Merit-Based",
+    "awardAmount": 50000,
+    "awardFrequency": "per year",
+    "daysRemaining": 11,
+    "renewalConditions": "Minimum 7.0 CGPA and mentorship participation.",
+    "officialUrl": "https://ffe.org/",
+    "rules": {
+      "minGpa": 7.5,
+      "maxIncome": 300000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Technology", "Medical"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate with Salary Slip / Form 16", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-ENT", "name": "JEE Mains / State CET Rank Card", "canonicalType": "exam_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Comprehensive grant and soft-skills mentorship for top-ranking engineering and medical students.",
+      "hi": "शीर्ष रैंक वाले इंजीनियरिंग छात्रों के लिए एफएफई छात्रवृत्ति और मेंटरशिप।",
+      "te": "టాప్ ర్యాంక్ ఇంజనీరింగ్ విద్యార్థులకు ఆర్థిక సహాయం మరియు స్కిల్స్ మెంటార్‌షిప్.",
+      "ta": "சிறந்த பொறியியல் மாணவர்களுக்கான எஃப்.எஃப்.இ உதவித்தொகை.",
+      "mr": "अभियांत्रिकी विद्यार्थ्यांसाठी एफएफई शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-018",
+    "title": "Karnataka Vidyasiri Post-Matric Scholarship",
+    "provider": "Department of Backward Classes Welfare, Govt. of Karnataka",
+    "category": "Government",
+    "awardAmount": 20000,
+    "awardFrequency": "per year (Food and Accommodation Scheme)",
+    "daysRemaining": 26,
+    "renewalConditions": "Minimum 75% attendance and passing semester exams.",
+    "officialUrl": "https://ssp.karnataka.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 250000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["BC", "OBC", "SC", "ST"],
+      "allowedStates": ["Karnataka"],
+      "allowedDegrees": ["Engineering", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "SSP Revenue Department Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-CAS", "name": "SSP Caste Certificate (RD Number)", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 36 }
+    ],
+    "conflictsWith": ["SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Food and accommodation allowance for backward classes students studying in Karnataka.",
+      "hi": "कर्नाटक में पिछड़े वर्ग के छात्रों के लिए भोजन और आवास छात्रवृत्ति।",
+      "te": "కర్ణాటకలో చదువుతున్న వెనుకబడిన తరగతుల విద్యార్థుల కోసం భోజన వసతి పథకం.",
+      "ta": "கர்நாடகாவில் படிக்கும் பிற்படுத்தப்பட்ட மாணவர்களுக்கான வித்யாசிரி உதவித்தொகை.",
+      "mr": "कर्नाटकातील विद्यार्थ्यांसाठी विद्यासिरी वसतिगृह योजना."
+    }
+  },
+  {
+    "id": "SCH-019",
+    "title": "Adobe India Women-in-Technology Scholarship",
+    "provider": "Adobe Systems India",
+    "category": "Women in STEM",
+    "awardAmount": 200000,
+    "awardFrequency": "lump-sum grant + internship opportunity",
+    "daysRemaining": 8,
+    "renewalConditions": "One-time award plus full-time pre-placement interview opportunity.",
+    "officialUrl": "https://www.adobe.com/",
+    "rules": {
+      "minGpa": 8.5,
+      "maxIncome": 2500000,
+      "allowedGenders": ["Female"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Technology"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-RES", "name": "Resume & GitHub / Portfolio Profile", "canonicalType": "portfolio_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "Official Academic Transcripts (B.Tech/BE Computer Science)", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 24 },
+      { "id": "DOC-LOR", "name": "Recommendation Letter from Professor", "canonicalType": "recommendation_proof", "isMandatory": true, "maxValidityMonths": 6 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Recognizes outstanding female computer science and tech students with ₹2,00,000 and internship offers.",
+      "hi": "कंप्यूटर साइंस की प्रतिभाशाली छात्राओं के लिए एडोबी की ₹2 लाख की स्कॉलरशिप और इंटर्नशिप।",
+      "te": "కంప్యూటర్ సైన్స్ చదివే ప్రతిభావంతులైన యువతులకు అడోబ్ ₹2 లక్షల గ్రాంట్ మరియు ఇంటర్న్‌షిప్.",
+      "ta": "கணினி அறிவியல் மாணவிகளுக்கான அடோப் ₹2 லட்சம் உதவித்தொகை.",
+      "mr": "कॉम्प्युटर सायन्स विद्यार्थिनींसाठी अ‍ॅडोबी तंत्रज्ञान शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-020",
+    "title": "Tata Trust Vocational and Professional Degree Grant",
+    "provider": "Tata Trusts",
+    "category": "Need-Based",
+    "awardAmount": 40000,
+    "awardFrequency": "per year",
+    "daysRemaining": 17,
+    "renewalConditions": "Submission of successful progression report from College Principal.",
+    "officialUrl": "https://www.tatatrusts.org/",
+    "rules": {
+      "minGpa": 6.0,
+      "maxIncome": 350000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Authentic Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-FEE", "name": "Current College Fee Structure & Paid Receipts", "canonicalType": "fee_proof", "isMandatory": true, "maxValidityMonths": 6 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Need-based partial tuition relief of ₹40,000 for undergraduate students in professional programs.",
+      "hi": "टाटा ट्रस्ट द्वारा डिग्री पाठ्यक्रमों के लिए ₹40,000 की शैक्षणिक सहायता।",
+      "te": "వృత్తి విద్యా కోర్సులు చదివే పేద విద్యార్థుల కోసం టాటా ట్రస్ట్స్ ₹40,000 ఫీజు సహాయం.",
+      "ta": "பட்டப்படிப்பு மாணவர்களுக்கான டாடா தொழில்முறை கல்வி உதவி.",
+      "mr": "टाटा ट्रस्टचे व्यावसायिक पदवी विद्यार्थ्यांसाठी शैक्षणिक साहाय्य."
+    }
+  },
+  {
+    "id": "SCH-021",
+    "title": "INSPIRE Scholarship for Higher Education (SHE)",
+    "provider": "Department of Science and Technology (DST), Govt. of India",
+    "category": "Merit-Based",
+    "awardAmount": 80000,
+    "awardFrequency": "per year (₹60,000 cash + ₹20,000 summer project)",
+    "daysRemaining": 25,
+    "renewalConditions": "Minimum 7.0 CGPA or 60% in Natural and Basic Sciences exams.",
+    "officialUrl": "https://online-inspire.gov.in/",
+    "rules": {
+      "minGpa": 8.8,
+      "maxIncome": 10000000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Arts/Science"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-MRK", "name": "Class 12th Board Advisory Note / Top 1% Rank Proof", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-BON", "name": "Endorsement Form Signed by College Head", "canonicalType": "bonafide_proof", "isMandatory": true, "maxValidityMonths": 6 }
+    ],
+    "conflictsWith": ["SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Premium DST scholarship of ₹80,000/yr for top 1% students pursuing Basic & Natural Sciences.",
+      "hi": "विज्ञान और प्रौद्योगिकी विभाग द्वारा बेसिक साइंस के शीर्ष 1% छात्रों के लिए ₹80,000 की योजना।",
+      "te": "ప్రాథమిక సైన్స్ కోర్సులు చదివే టాప్ 1% విద్యార్థులకు డీఎస్‌టీ ఇన్‌స్పైర్ స్కాలర్‌షిప్.",
+      "ta": "அறிவியல் மாணவர்களுக்கான இன்ஸ்பயர் ₹80,000 உயர்கல்வி உதவித்தொகை.",
+      "mr": "विज्ञान शाखेतील गुणवंत विद्यार्थ्यांसाठी इन्स्पायर फेलोशिप."
+    }
+  },
+  {
+    "id": "SCH-022",
+    "title": "G.P. Birla Educational Foundation Scholarship",
+    "provider": "G.P. Birla Archeological Cultural Research Institute",
+    "category": "Merit-Based",
+    "awardAmount": 50000,
+    "awardFrequency": "per year",
+    "daysRemaining": 29,
+    "renewalConditions": "Maintenance of at least 80% marks in degree exams.",
+    "officialUrl": "https://gpbirlaedufoundation.com/",
+    "rules": {
+      "minGpa": 8.5,
+      "maxIncome": 300000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Law"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Salary / Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "12th Marksheet with 85%+ in State Board or 90%+ in CBSE", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 60 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Annual ₹50,000 scholarship plus ₹7,000 book grant for meritorious Indian students.",
+      "hi": "जी.पी. बिड़ला फाउंडेशन द्वारा मेधावी छात्रों के लिए ₹50,000 की वार्षिक छात्रवृत्ति।",
+      "te": "ప్రతిభ గల విద్యార్థుల కోసం జీపీ బిర్లా ఫౌండేషన్ అందించే వార్షిక ₹50,000 గ్రాంట్.",
+      "ta": "ஜி.பி. பிர்லா கல்வி அறக்கட்டளை உதவித்தொகை ₹50,000.",
+      "mr": "जी. पी. बिर्ला एज्युकेशनल फाउंडेशन शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-023",
+    "title": "Dr. B.R. Ambedkar Post-Matric Scholarship for EBC Students",
+    "provider": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "category": "Government",
+    "awardAmount": 25000,
+    "awardFrequency": "per year",
+    "daysRemaining": 17,
+    "renewalConditions": "Passing previous examination without backlog.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 100000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate issued by Tehsildar", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-EWS", "name": "Economically Backward Certificate", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 24 }
+    ],
+    "conflictsWith": ["SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Targeted assistance for economically backward general/open category students with income under ₹1 Lakh.",
+      "hi": "आर्थिक रूप से पिछड़े सामान्य वर्ग (EBC) के छात्रों के लिए अंबेडकर छात्रवृत्ति।",
+      "te": "ఆర్థికంగా వెనుకబడిన సాధారణ వర్గాల విద్యార్థులకు డా. బి.ఆర్. అంబేద్కర్ స్కాలర్‌షిప్.",
+      "ta": "பொருளாதாரத்தில் பின்தங்கிய பொதுப்பிரிவு மாணவர்களுக்கான உதவித்தொகை.",
+      "mr": "आर्थिकदृष्ट्या मागास (EBC) विद्यार्थ्यांसाठी डॉ. बाबासाहेब आंबेडकर शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-024",
+    "title": "Vidyasaarathi SNL Bearings Scholarship",
+    "provider": "SNL Bearings Limited CSR",
+    "category": "Need-Based",
+    "awardAmount": 30000,
+    "awardFrequency": "per year",
+    "daysRemaining": 23,
+    "renewalConditions": "Passing degree exams with at least 60%.",
+    "officialUrl": "https://www.vidyasaarathi.co.in/",
+    "rules": {
+      "minGpa": 6.0,
+      "maxIncome": 500000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Salary Slip / Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-BNK", "name": "Bank Passbook Copy", "canonicalType": "bank_proof", "isMandatory": true, "maxValidityMonths": 24 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Financial grant for undergraduate engineering and polytechnic diploma students.",
+      "hi": "इंजीनियरिंग और डिप्लोमा छात्रों के लिए विद्यासारथी सीएसआर अनुदान।",
+      "te": "ఇంజనీరింగ్ మరియు డిప్లొమా విద్యార్థుల కోసం విద్యాసారథి స్కాలర్‌షిప్.",
+      "ta": "பொறியியல் மற்றும் டிப்ளமோ மாணவர்களுக்கான வித்யாசாரதி உதவித்தொகை.",
+      "mr": "विद्यासारथी इंजिनिअरिंग व डिप्लोमा शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-025",
+    "title": "AICTE Swanath Scholarship Scheme for Orphans & Martyrs",
+    "provider": "AICTE",
+    "category": "Special Category",
+    "awardAmount": 50000,
+    "awardFrequency": "per year",
+    "daysRemaining": 13,
+    "renewalConditions": "Clear all subjects in first attempt.",
+    "officialUrl": "https://www.aicte-india.org/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 800000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Technology", "Pharmacy", "Diploma"],
+      "specialConditions": "isOrphanOrMartyrChild"
+    },
+    "documents": [
+      { "id": "DOC-ORP", "name": "Death Certificate of Both Parents / Armed Forces Martyr Document", "canonicalType": "special_proof", "isMandatory": true, "maxValidityMonths": 120 },
+      { "id": "DOC-INC", "name": "Income Certificate (if applicable)", "canonicalType": "income_proof", "isMandatory": false, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": ["SCH-001"],
+    "summaryMultiLingual": {
+      "en": "Empowers orphan students and wards of martyrs studying in AICTE-approved degree institutions.",
+      "hi": "अनाथ बच्चों और शहीदों के बच्चों के लिए एआईसीटीई स्वनाथ छात्रवृत्ति योजना।",
+      "te": "అనాథ పిల్లలు మరియు అమరవీరుల బిడ్డల సాంకేతిక విద్య కోసం AICTE స్వానాథ్ పథకం.",
+      "ta": "ஆதரவற்ற மற்றும் தியாகிகளின் பிள்ளைகளுக்கான AICTE ஸ்வநாத் உதவி.",
+      "mr": "अनाथ व शहीद जवानांच्या पाल्यांसाठी स्वनाथ शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-026",
+    "title": "NSP Top Class Education Scheme for SC Students",
+    "provider": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "category": "Government",
+    "awardAmount": 120000,
+    "awardFrequency": "full tuition + living expenses allowance",
+    "daysRemaining": 15,
+    "renewalConditions": "Maintaining minimum passing grades in notified premier institutes.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 6.5,
+      "maxIncome": 800000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["SC"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Law", "Management"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-CAS", "name": "Official SC Caste Certificate", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-INC", "name": "Competent Authority Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": ["SCH-002", "SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Comprehensive coverage of full tuition fees, computer allowance, and books for SC students in top institutions.",
+      "hi": "शीर्ष संस्थानों (IITs, NITs, AIIMS) में एससी छात्रों के लिए संपूर्ण शुल्क और आवास सहायता।",
+      "te": "ప్రముఖ ఐఐటీ, ఎన్‌ఐటీల్లో చదివే ఎస్సీ విద్యార్థులకు పూర్తి ఫీజు మరియు ల్యాప్‌టాప్ గ్రాంట్.",
+      "ta": "உயர்கல்வி நிறுவனங்களில் எஸ்சி மாணவர்களுக்கான முழு கல்வி ஆதரவு.",
+      "mr": "अव्वल संस्थांमधील एससी विद्यार्थ्यांसाठी पूर्ण फी प्रतिपूर्ती योजना."
+    }
+  },
+  {
+    "id": "SCH-027",
+    "title": "Maharashtra Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti",
+    "provider": "Higher & Technical Education Department, Govt. of Maharashtra",
+    "category": "Government",
+    "awardAmount": 40000,
+    "awardFrequency": "50% Tuition Fee Reimbursement per year",
+    "daysRemaining": 27,
+    "renewalConditions": "Passing annual examination without year drops.",
+    "officialUrl": "https://mahadbt.maharashtra.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 800000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "EWS", "OBC", "BC", "SEBC"],
+      "allowedStates": ["Maharashtra"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-DOM", "name": "Maharashtra Domicile Certificate", "canonicalType": "domicile_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-INC", "name": "Tehsildar Income Certificate (<= ₹8 Lakhs)", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": ["SCH-007"],
+    "summaryMultiLingual": {
+      "en": "50% tuition and exam fee waiver for economically weaker students in Maharashtra.",
+      "hi": "महाराष्ट्र के छात्रों के लिए 50% शिक्षण शुल्क प्रतिपूर्ति योजना।",
+      "te": "మహారాష్ట్రలో చదివే విద్యార్థుల కోసం 50% ఫీజు రాయితీ పథకం.",
+      "ta": "மகாராஷ்டிர மாணவர்களுக்கான 50% கல்விக் கட்டண தள்ளுபடி திட்டம்.",
+      "mr": "राजर्षी छत्रपती शाहू महाराज शिक्षण शुल्क शिष्यवृत्ती (५०% फी माफी)."
+    }
+  },
+  {
+    "id": "SCH-028",
+    "title": "Post Matric Scholarship for ST Students - National Scholarship Portal",
+    "provider": "Ministry of Tribal Affairs, Govt. of India",
+    "category": "Government",
+    "awardAmount": 30000,
+    "awardFrequency": "per year",
+    "daysRemaining": 19,
+    "renewalConditions": "Regular attendance and progression to subsequent year.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 250000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["ST"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-CAS", "name": "ST Tribe Certificate from Competent Authority", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": ["SCH-001", "SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Centrally sponsored post-matric scheme enabling Scheduled Tribe students to finish higher education.",
+      "hi": "अनुसूचित जनजाति (ST) के छात्रों के लिए उच्च शिक्षा सहायता योजना।",
+      "te": "గిరిజన (ST) విద్యార్థుల ఉన్నత చదువుల కోసం కేంద్ర ప్రభుత్వ పోస్ట్-మెట్రిక్ స్కాలర్‌షిప్.",
+      "ta": "பழங்குடியின மாணவர்களுக்கான மத்திய அரசு கல்வி உதவித்தொகை.",
+      "mr": "अनुसूचित जमाती (ST) विद्यार्थ्यांसाठी मॅट्रिकोत्तर शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-029",
+    "title": "Sahu Jain Trust Educational Scholarships",
+    "provider": "Sahu Jain Trust",
+    "category": "Need-Based",
+    "awardAmount": 25000,
+    "awardFrequency": "per year",
+    "daysRemaining": 35,
+    "renewalConditions": "Re-application with first-class annual performance.",
+    "officialUrl": "https://sahujaintrust.timesofindia.com/",
+    "rules": {
+      "minGpa": 6.5,
+      "maxIncome": 250000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["General", "OBC", "BC", "SC", "ST", "Minority", "EWS"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Management"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-INC", "name": "Income Certificate / Affidavit", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 },
+      { "id": "DOC-MRK", "name": "Graduation / 12th Marksheets", "canonicalType": "marksheet_proof", "isMandatory": true, "maxValidityMonths": 36 }
+    ],
+    "conflictsWith": [],
+    "summaryMultiLingual": {
+      "en": "Financial assistance for meritorious and needy students across technical and humanities courses.",
+      "hi": "साहू जैन ट्रस्ट द्वारा जरूरतमंद और मेधावी छात्रों के लिए छात्रवृत्ति।",
+      "te": "పేద మరియు ప్రతిభ గల విద్యార్థులకు సాహు జైన్ ట్రస్ట్ అందించే విద్యా సహాయం.",
+      "ta": "ஏழை மற்றும் தகுதி வாய்ந்த மாணவர்களுக்கான சாஹு ஜெயின் உதவித்தொகை.",
+      "mr": "साहू जैन ट्रस्ट शैक्षणिक शिष्यवृत्ती."
+    }
+  },
+  {
+    "id": "SCH-030",
+    "title": "Post-Matric Scholarship for SC Students - Central Scheme",
+    "provider": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "category": "Government",
+    "awardAmount": 30000,
+    "awardFrequency": "per year",
+    "daysRemaining": 21,
+    "renewalConditions": "Satisfactory conduct and annual progression.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "rules": {
+      "minGpa": 5.0,
+      "maxIncome": 250000,
+      "allowedGenders": ["Male", "Female", "Other"],
+      "allowedCastes": ["SC"],
+      "allowedStates": ["All"],
+      "allowedDegrees": ["Engineering", "Medical", "Arts/Science", "Commerce", "Diploma"],
+      "specialConditions": null
+    },
+    "documents": [
+      { "id": "DOC-CAS", "name": "Scheduled Caste Certificate", "canonicalType": "caste_proof", "isMandatory": true, "maxValidityMonths": 60 },
+      { "id": "DOC-INC", "name": "Income Certificate", "canonicalType": "income_proof", "isMandatory": true, "maxValidityMonths": 12 }
+    ],
+    "conflictsWith": ["SCH-007"],
+    "summaryMultiLingual": {
+      "en": "Core national post-matric welfare scholarship for Scheduled Caste youth pursuing tertiary degrees.",
+      "hi": "अनुसूचित जाति (SC) के छात्रों के लिए केंद्र सरकार की प्रमुख योजना।",
+      "te": "ఎస్సీ విద్యార్థుల ఉన్నత విద్య కోసం కేంద్ర ప్రభుత్వ పోస్ట్-మెట్రిక్ స్కాలర్‌షిప్.",
+      "ta": "எஸ்சி மாணவர்களுக்கான தேசிய போஸ்ட்-மெட்ரிக் உதவித்தொகை.",
+      "mr": "अनुसूचित जाती (SC) विद्यार्थ्यांसाठी केंद्रीय मॅट्रिकोत्तर शिष्यवृत्ती."
+    }
+  }
+]

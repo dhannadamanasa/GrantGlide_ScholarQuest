@@ -1,0 +1,23 @@
+{
+  "name": "grantglide-scholarquest",
+  "version": "1.0.0",
+  "description": "Intelligent Scholarship Matching & Document Readiness Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "scholarship-matcher",
+    "grantglide",
+    "scholarquest",
+    "financial-aid-optimizer",
+    "document-readiness"
+  ],
+  "author": "ScholarQuest Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
